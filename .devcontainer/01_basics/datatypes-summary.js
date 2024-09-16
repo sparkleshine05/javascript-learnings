@@ -40,3 +40,29 @@ console.log(typeof bigNumber);
 console.log(typeof outsideTemp);
 
 console.log(typeof myFunction);
+
+
+// ====================================================MEMORIES==============================================================
+
+// Stack (Primitive), Heap (Non-Primitive) //in stack we get a copy of the variable whereas in heap we get the value by reference
+
+let myYouTubename = "mukti.bhargava@gmail.com"
+
+let anothername = myYouTubename
+anothername = "mukti@gmail.com"
+
+console.log(myYouTubename);
+console.log(anothername);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "mukti@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
