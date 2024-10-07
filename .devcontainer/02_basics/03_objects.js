@@ -8,7 +8,7 @@ const mySymbol = Symbol("key1")
 
 const JsUser = {
     name: "Mukti",
-    "full name": "Mukti Bhargava",
+    "full name": "Mukti Bhargava", // this full name cannot be accessed by dot operator and it can be accessed by []
     [mySymbol]: "myKey1",
     age: 37,
     location: "Pune",
