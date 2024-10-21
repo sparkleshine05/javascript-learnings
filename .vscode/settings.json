@@ -1,3 +1,7 @@
 {
-    "liveServer.settings.port": 5501
-}
+    "liveServer.settings.useLocalIp": false,
+    "liveServer.settings.https": {
+      "enable": true
+    },
+    "livePreview.defaultPreviewPath": "/.devcontainer/06_dom/two.html"
+  }
