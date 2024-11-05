@@ -3,5 +3,5 @@
     "liveServer.settings.https": {
       "enable": true
     },
-    "livePreview.defaultPreviewPath": "/.devcontainer/06_dom/two.html"
+    "livePreview.defaultPreviewPath": "/.devcontainer/09_advance_one/ApiRequest.html"
   }
